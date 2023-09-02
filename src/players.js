@@ -1,6 +1,6 @@
 //array of JSon objects, containing the players details
 
-const players = [
+export const players = [
   {
     "name": 'Ronaldo',
     "team": 'Real Madrid',
