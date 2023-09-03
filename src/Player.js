@@ -4,7 +4,7 @@ export default function Player({ name="Jaafar", team="Morocco", nationality="Mar
   return (
     <div className="all-card">
       
-      <div className="title" style={{textAlign: "center"}}>
+      <div className="title" style={{color: "white"}}>
         <h1>Player card</h1>
       </div>
 
@@ -14,10 +14,10 @@ export default function Player({ name="Jaafar", team="Morocco", nationality="Mar
         src={image} alt={name}
         style={{width: 300, height: 300}} 
         />
-        <h3 className="team">{team}</h3>
-        <h3 className="number">{jerseyNumber}</h3>
-        <h2 className="nationality">{nationality}</h2>
-        <h2 className="age">{age}</h2>
+        <h3 className="team" style={{color:"white"}}>{team}</h3>
+        <h2 className="number" style={{color:"green"}}>{jerseyNumber}</h2>
+        <h2 className="nationality" style={{fontStyle:"italic"}}>{nationality}</h2>
+        <h3 className="age">{age}</h3>
       </div>
 
     </div>

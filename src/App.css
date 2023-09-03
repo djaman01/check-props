@@ -2,12 +2,7 @@
   border: 2px grey solid;
   margin-bottom: 50px;
   width: 300px;
-  margin-left: 600px;
-}
-.player-name, .team,.nationality{
-  margin-left: 100px;
-}
-
-.number, .age {
-margin-left: 150px;
+  margin: 50px auto;
+  background-color: orange;
+  text-align: center;
 }
