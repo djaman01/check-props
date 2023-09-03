@@ -1,6 +1,8 @@
 .all-card {
   border: 2px grey solid;
   margin-bottom: 50px;
+  width: 300px;
+  margin-left: 600px;
 }
 .player-name, .team,.nationality{
   margin-left: 100px;

@@ -4,7 +4,7 @@ export default function Player({ name="Jaafar", team="Morocco", nationality="Mar
   return (
     <div className="all-card">
       
-      <div className="title" style={{marginLeft: 660}}>
+      <div className="title" style={{textAlign: "center"}}>
         <h1>Player card</h1>
       </div>
 
