@@ -1,15 +1,12 @@
 import './App.css';
+import PlayersList from './PlayersList';
 
-import Player from './Player.js'
-import PlayersList from './PlayersList.js';
 
 function App() {
-  return (
-    <>
-    <PlayersList/>
-    </>
-  )
- 
+ return (
+  <PlayersList />
+ )
+
 }
 
 export default App;
