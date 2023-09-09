@@ -1,0 +1,14 @@
+.all-card {
+  border: 2px grey solid;
+  margin-bottom: 50px;
+  width: 300px;
+  margin: 50px auto;
+  background-color: orange;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+}
