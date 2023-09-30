@@ -1,5 +1,6 @@
 import './App.css';
 import Filter from './Filter/Filter';
+import Footer from './Footer';
 import PlayersList from './PlayersList';
 
 
@@ -10,6 +11,8 @@ function App() {
       Hello world!
     </h1>
   <Filter />
+  <Footer />
+
   </>
   
  )
