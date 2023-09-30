@@ -1,4 +1,4 @@
-@tailwind base;
+/* J'ai enlevé le base car ça impacte le style de toute l'app */
 @tailwind components;
 @tailwind utilities;
 
