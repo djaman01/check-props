@@ -3,6 +3,9 @@ import './App.css';
 import Filter from './Filter/Filter';
 import Footer from './Footer';
 import PlayersList from './PlayersList';
+import Player from './Player';
+
+
 
 
 
@@ -14,7 +17,7 @@ function App() {
     </h1>
     {/* <Carousel /> */}
   <Filter />
-  <Footer />
+  {/* <Footer /> */}
 
   </>
   
