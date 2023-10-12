@@ -2,11 +2,15 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 function App() {
+  //On crée une state variable formData avec comme value par défaut un objet avec  2 properties Nom et Prénom, sans value;
+  //formData.Nom et formData.prenom will be the values of the 2 inputs fields
   const [formData, setFormData] = useState({
     Nom: '',
     Prenom: '',
   });
 
+  //will be called on input attribute onChange= {handleChange}
+  //Puis on donne des values à ces 2 properties de la state variable et en 1 code grace à ce bou tde code et au spread operator
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -15,6 +19,7 @@ function App() {
     });
   };
 
+  //Will be called on the form attribute onSubmit={handleSubmit}
   const handleSubmit = async (e) => {
     e.preventDefault();
 
